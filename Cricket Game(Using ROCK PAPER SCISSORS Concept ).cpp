@@ -420,12 +420,13 @@ void player::gamerules(void)
     printf(">--->> For runs 1,2,3,4 and 6 press the key 'a'/'l','s'/'k','d'/'j','w'/'o'&'e'/'i' of keyboard respectively.\n");
     printf("\tAt the same time to out him opponent player also use same way.\n\n");
     printf(">--->> Remember That Keys a,s,d,w & e Only for First Player and Keys l,k,j,o & i for Second Player.\n\n\n");
-    printf(">--->> Two can be used to play the game.\n\n\n");
+    printf(">--->> Two keyboard can be used to play the game.\n\n\n");
 }
 int main()
 {
     int choice;
     player obj;
+    cout<<"Programed by PEAL MAZUMDER(NSTU CSTE 12batch)\n";
     obj.option();
     cin>>choice;
     if(choice==1)
